@@ -1,0 +1,91 @@
+body{
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Faz com que a borda faça parte do tamanho do elemento, ou seja, um elemento de 10px, se eu adicionar uma borda de 2px ele continua tendo 10px*/
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, ul, nav{
+    height: 5vh;
+}
+
+ul{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;  /*faz alinhamento no eixo x (principal) */
+    align-items: center; /*faz alinhamento no eixo y (transversal) */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+    a{
+        color: white;
+        text-decoration: none;
+        display: block; /*Atentar que para fazer transformações em elementos em linha, que só ocupam o espaço que deveriam ocupar, devemos fazer ele ser um elemento em bloco que aceita mudanças de tamanho*/
+        transition: 0.5s;
+    }
+
+    a:hover{ /*A propriedade é aplicada quando o mouse passa sobre o elemento*/
+        text-decoration: 1px underline;
+        transform: scale(1.2);
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    border: 2px solid black;
+    width: 30%;
+    margin: 0 auto;
+    height: 20vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column; /*Mexe na direção do eixo x, que por padrão é da esquerda pra direita (linha), aqui definimos que será coluna o eixo principal, então inverte os comandos */
+    align-items: center;
+
+    button{
+        margin-top: auto;
+        margin-bottom: 1.2rem;
+        width: 30%;
+        height: 3vh;
+        border-radius: 0.5rem;
+        font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+        background-color: rgb(132, 76, 76);
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    #labelUm{
+        margin-top: 1.6rem;
+    }
+
+    label{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    input{
+        border-radius: 0.3rem;
+        height: 2vh;
+    }
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+}
+
+
+/* li{
+    transition: 0.25s;
+}
+li:hover{
+    transform: scale(1.2)
+}
+ */

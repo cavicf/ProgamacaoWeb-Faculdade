@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        form{
+            border: 1px solid black ;
+            padding: 10px;
+        }
+        p{
+            border: 2px solid rgb(69, 69, 69, 0.5);
+            margin: auto;
+            margin-bottom: 5px;
+            padding: 2px;
+            width: 125px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            background-color: rgb(68, 180, 220);
+        }
+
+    </style>
+</head>
+<body>
+    <form action="https://www.meuapp.heroku.com/cadastro" method="post" target="_blank"> <!--O action serve para indicar o caminho para onde a submissão do form vai. Perceba que as informações colocadas no input são colocadas na url para serem enviadas, isso quer dizer que o método GET está sendo usado-->
+    <!-- Método GET - verbo que pega informações(n se preocupa com segurança, vai na url)
+    Método POST - preocupa com a privacidade da informação e também é usado para modificar informações no servidor (não aparece na url)
+    São baseados em semantica sobre o que você quer passar -->
+         <!--O formulário é um elemento em bloco -->
+        <label for="nome" hidden>nome de usuário</label>
+        <input type="text" placeholder="nome de usuario" name="nome" id="nome"> <!--são em linha, os elementos em si-->
+        <!-- label é um rótulo para os inputs e outros tipo de elementos form, podemos esconde-los mas eles são importantes para questão de acessibilidade -->
+         <!-- ids criam identificações únicas para os elementos e com ele podemos fazer operações e ligar atributos -->
+        <label for="senha" hidden>senha</label>
+        <input type="password" placeholder="senha" name="senha" id="senha" required>
+        <!-- placeholder é uma 'etiqueta' que indica dentro do input o que é pra ser inserido nele -->
+         <!-- O atributo name indica o tipo de resposta que o servidor receberá daquele input -->
+        <button>Enviar</button>
+        <!-- botoes que ja estão dentro do formulario não precisa colocar o type, pois ja será do tipo submit. Mas fora do form tem q especificar o tipo -->
+    </form>
+    <p>Eu paragrafo 1</p>
+    <p>eu sou paragrafo 2</p>
+
+</body>
+</html>

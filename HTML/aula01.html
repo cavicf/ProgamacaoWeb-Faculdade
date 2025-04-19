@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+</head>
+<body>
+    <h1>Minha pagina</h1>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+
+    <img src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2024-12/vira-lata-caramelo.jpg" alt="cachorro" width="250">
+   
+   <!-- O ideal é colocar as imagens dentro da tag figure por conta da semantica -->
+    <figue>
+        <img src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2024-12/vira-lata-caramelo.jpg" alt="cachorro" width="250">
+        <figcaption>Cachorrin fia da puta</figcaption>
+    </figue>
+    
+    <a href="https://sigaa.unifei.edu.br/sigaa/portais/discente/discente.jsf" target="_blank">Sigaa Unifei</a>
+
+    <!-- Fazendo uma imagem ser um link, ou seja, um elemento ancorado -->
+    <a href="https://sigaa.unifei.edu.br/sigaa/portais/discente/discente.jsf" target="_blank">
+        <img src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2024-12/vira-lata-caramelo.jpg" alt="cachorro" width="250">
+    </a>
+
+    <!-- Diferença de elementos em bloco e em linha -->
+    <!-- elementos em bloco ocupam em horizontal todo o espaço da view port -->
+    <!-- Por outro lado anconras são em linha, portanto aceitam elementos ao seu lado    -->
+    <a href="https://sigaa.unifei.edu.br/sigaa/portais/discente/discente.jsf" target="_blank">Sigaa Unifei</a>
+    <a href="https://sigaa.unifei.edu.br/sigaa/portais/discente/discente.jsf" target="_blank">Sigaa Unifei</a>
+    <p>paragrafo 1</p>
+    <p>paragrafo 2</p>
+    <p>paragrafo 3</p>
+
+
+    <!-- Temos elementos agrupadores também como div e span, que fazem blocos de códigos os dividindo. São muito úteis para reaproveitar códigos de estilização -->
+     <!-- Divs são agrupadores em bloco, ja span são em linha -->
+    <div>
+        <h1>OIII</h1>
+    </div>
+    <div>
+        <h3>OIUUUUUU</h3>
+        <p>paragrafo 2 interno</p>
+    </div>
+    <p>paragrafo 3 externo</p>
+
+    <!-- Não é ideal usar agrupador em bloco em elementos em bloco, pois vao jogar os elementos para a linha de baixo -->
+    <p>paragrafo <div>externo</div></p>
+
+    <!-- O span ja evita esse erro pois mantem o conteudo em linha -->
+    <p>paragrafo <span>externo</span></p>
+    
+    <!-- AGRUPADORES SEMÂNTICOS -->
+     <!-- São o mesmo que divs, mas tem pesos semânticos -->
+     <!-- Especifica os conteúdos, como a tag main (conteúdo principal da pagina), nav (aba de links navegáveis), section (paginas de documentos pois especificam seções de artigo), figure (faz a junção de imagens com legendas), footer (rodapé das páginas), header (cabeçalho de paginas), aside (barra lateral), etc -->
+
+    <!-- Fórmularios permitem que a gente submeta informações ao servidor -->
+    <!-- São caixas de textos, botões, caixas de seleção e mais -->
+     <!-- Os formulários são iniciados através da tag form action -->
+      <!-- O action determina o que esse form fará, para onde direcionará os itens submetidos -->
+      <form action="www.meuservidor.com.br">
+        <input type="text" name="" id="">
+        <button>Enviar</button>
+      </form>
+</body>
+</html>

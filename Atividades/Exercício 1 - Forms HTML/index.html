@@ -1,0 +1,84 @@
+<!-- Aluna: Camily Victal Finamor
+Matricula: 2024001197 -->
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Projetos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://unifei.edu.br" target="_blank">UNIFEI</a>
+                </li>
+                <li>
+                    <a href="https://proex.unifei.edu.br" target="_blank">PROEX</a>
+                </li>
+                <li>
+                    <a href="https://unifei.edu.br/evento/integra/" target="_blank">INTEGRA UNIFEI</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h1>Formulário de Apresentação de Projetos de Extensão</h1>
+            <p>Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensão para que a PROEX possa distribuir os stands da forma mais adequada.</p>
+        </header>
+        
+        <section id="Cadastro">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Identificação do projeto</legend>
+                    <label for="nome">Nome do Projeto</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="qtd">Quantidade de Integrantes</label>
+                    <input type="number" name="qtd" id="qtd">
+                    <label for="instituto">Instituto de Localização</label>
+                    <input type="text" name="instituto" id="instituto">
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Área de Atuação</legend>
+                    <p>Selecione apenas uma opção</p>
+                    <input type="radio" name="tipoProjeto" id="web" value="web">
+                    <label for="web">Aplicação Web/Mobile</label>
+                    <input type="radio" name="tipoProjeto" id="jogos" value="jogos">
+                    <label for="jogos">Desenvolvimento de Jogos</label>
+                    <input type="radio" name="tipoProjeto" id="drones" value="drones">
+                    <label for="drones">Drones</label>
+                    <input type="radio" name="tipoProjeto" id="robos" value="robos">
+                    <label for="robos">Competição de Robôs</label>
+                    <input type="radio" name="tipoProjeto" id="contabil" value="contabil">
+                    <label for="contabil">Contabilidade</label>
+                    <input type="radio" name="tipoProjeto" id="meteorologia" value="meteorologia">
+                    <label for="meteorologia">Meteorologia</label>
+                </fieldset> 
+    
+                <fieldset>
+                    <legend>Fomento</legend>
+                    <label for="fomento">Tipo:</label>
+                    <select name="fomento" id="fomento">
+                        <option value="EmpresaJunior">Empresa Junior</option>
+                        <option value="ProjetoCompeticao">Projeto de Competição</option>
+                        <option value="Voluntario">Voluntário</option>
+                        <option value="Proex">Proex</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </fieldset>
+                <button type="button">Enviar</button>
+            </form>
+        </section> 
+    </main>
+
+    <footer>
+        <p>Feito com &hearts; por <a href="https://github.com/cavicf" target="_blank">Camily Victal</a></p>
+    </footer>
+</body>
+</html>
+
