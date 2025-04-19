@@ -46,7 +46,7 @@ Em breve, também serão abordados:
 ### 📁 Organização do Repositório
 O repositório está organizado em pastas organizadas por temas:
 - 📂 **Módulo/Tema**: Contém os códigos de exemplo abordados em aula, explicados e comentados.
-- 🧪 **exercicios/**: Exercícios propostos para fixação dos conteúdos estudados.
+- 🧪 **exercicios**: Exercícios propostos para fixação dos conteúdos estudados.
 
 Todos os códigos estão devidamente comentados para facilitar o estudo e entendimento.
 
