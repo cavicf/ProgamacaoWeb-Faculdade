@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bem vindo a Amazon</h1>
+        <p>Faça suas compras e nos dê mais dinheiro</p>
+    </header>
+    <main>
+        <section>
+            <h2>Carrinho de compras</h1>
+            <p>Adicione seus produtos!</p>
+            <form action="">
+                <label for="qtd">Quantidde</label>
+                <input type="number" id="qtd">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                 <button type="button">Adicionar</button> <!--aqui pelo botão estar dentro do formulario, ele fica automaticamente com evento de submissão no seu type, mas como queremos o evento de clique, devemos alterar o type para button que aceita outros eventos-->
+            </form>
+        </section>
+
+        <section>
+            <h2>Pedidos:</h2>
+            <p id="status">Seu carrinho esta vazio! Adicione produtos</p>
+            <ul></ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
