@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(207, 113, 96);
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+
+    p{
+        margin-top: 0;
+    }
+    h1{
+        margin-bottom: 0;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 300px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.8rem 0.1rem rgba(0, 0, 0, 0.433);
+    p{
+        margin: 0;
+        text-align: center;
+    }
+    h2{
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #labelUm{
+        margin-top: 1rem;
+    }
+    label{
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    input{
+        border-radius: 0.3rem;
+    }
+
+    button{
+        margin-top: 2rem;
+        width: 9rem;
+        height: 2rem;
+        align-self: center;
+        background-color:  rgb(207, 113, 96);
+        color: aliceblue;
+        border-radius: 1rem;
+    }
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    li{
+        text-align: center;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        width: 30%;
+        background-color:  rgb(207, 113, 96, 0.4);;
+        button{
+            margin-left: 0.5rem;
+        }
+    }
+}
+
