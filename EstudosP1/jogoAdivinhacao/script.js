@@ -18,10 +18,6 @@ const pensarNumero = () => {
         pResultado.innerText = 'Digite um número inteiro nos campos "Início" e "Fim"!';
         return;
     }
-    const intervalo = [];
-    for(let i = inicioValor; i<=fimValor; i++){
-        intervalo.push(i);
-    }
     
     numeroSorteado = Math.floor(Math.random()*(fimValor - inicioValor + 1)) + inicioValor
     pResultado.innerText = `Pronto! Pensei em um número entre ${inicioValor} e ${fimValor}. Tente Adivinhar`;
