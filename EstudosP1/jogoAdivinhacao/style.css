@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 97vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comme', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 45%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    img{
+        object-fit:contain;
+        border-radius: 1rem;
+        aspect-ratio: 16/10;
+        width: 35%;
+    }
+}
+
+div{
+    width: 65%;
+    margin-top: 2rem;
+    input{
+        width: 30%;
+    }
+}
+
+#Adivinhacao{
+    p{
+        display: inline;
+    } 
+    form{
+        display: inline;
+    }
+    margin-top: 4rem;
+}
+
+#resultado{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
