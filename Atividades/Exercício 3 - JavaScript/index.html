@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de Pontos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Marcador de Pontuação Avatar</h1>
+    <main>
+        <img src="https://cdn2.storyasset.link/89d08002-0b23-418f-b8e0-67531a35bf2d/avatar1-ms-lpuqubaaav.webp" alt="Avatar">
+        <section>
+            <p id="placar"><span id="pontos1">0</span> a <span id="pontos2">0</span></p>
+            <form action="">
+                <label for="pontuacaoVitoria">Escolha a Pontuação Vitoriosa</label>
+                <select name="pontuacaoVitoria" id="pontuacaoVitoria">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </form>
+            <p>Use os botões para marcar a pontuação vitoriosa</p>
+        </section>
+        <section id="botoes">
+            <button type="button" id="jogador1">Jogador 1</button>
+            <button type="button" id="jogador2">Jogador 2</button>
+            <button type="button" id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

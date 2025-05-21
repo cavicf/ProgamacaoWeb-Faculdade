@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 97vh;
+    box-sizing: border-box;
+    font-family: "Tagesschrift", system-ui;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    img{
+        border: 2px solid black;
+        object-fit: cover;
+        aspect-ratio: 16/9;
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        border: 2px solid #797979;
+        text-align: center;
+        
+        #placar{
+            font-size: 2.5rem;
+            margin-bottom: 1.2rem;
+        }
+
+        p{
+            margin-top: 2.5rem;
+        }
+
+        form{
+            select{
+                margin-left: 1rem;
+                width: 12%;
+                font-weight: bold;
+                font-size: 1.5rem;
+                border: 1px solid #868686;
+                border-radius: 0.3rem;
+            }
+        }
+
+    }
+    #botoes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid black;
+        button{
+            flex: auto;
+            height: 4vh;
+            font-size: 1.2rem;
+            color: white;
+            font-family: "Tagesschrift", system-ui;
+        }
+        #jogador1{
+            background-color: green;
+        }
+        #jogador2{
+            background-color: blue;
+        }
+        #reiniciar{
+            background-color: red;
+        }
+    }
+}
+
