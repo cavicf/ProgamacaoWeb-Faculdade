@@ -7,12 +7,19 @@
 </head>
 <body>
     <main>
-        <form action="http://localhost:3000/login" method="get">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha">
-            <button>Enviar</button>
+        <form action="http://localhost:3000/disciplinas" method="get">
+            <label for="sigla">Sigla</label>
+            <input type="text" id="sigla" name="nome">
+            <button>Buscar</button>
+        </form>
+        <form action="http://localhost:3000/disciplinas" method="post">
+            <label for="sigla">Sigla</label>
+            <input type="text" id="sigla" name="nome">
+            <label for="ementa">ementa</label>
+            <input type="text" id="ementa" name="ementa">
+            <label for="equivalencia">equivalencia</label>
+            <input type="text" id="equivalencia" name="equivalencia">
+            <button>Cadastrar</button>
         </form>
     </main>
 </body>
