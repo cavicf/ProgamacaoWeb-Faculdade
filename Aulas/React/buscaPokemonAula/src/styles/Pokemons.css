@@ -1,0 +1,5 @@
+/* Convensao que utiliza o mesmo nome do componente para o css */
+.cards{
+    display: flex;
+    gap: 2rem;
+}
