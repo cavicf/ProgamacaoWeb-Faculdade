@@ -30,7 +30,7 @@ Durante o curso, exploramos os seguintes tópicos fundamentais:
   - Arrays
   - Estruturas condicionais e de repetição
 
-Em breve, também serão abordados:
+Também foram abordados conceitos como:
 - 🌲 Manipulação do **DOM**
 - 🚀 Introdução a **frameworks JS**
 - 🛠️ Desenvolvimento de um **projeto final** com aplicação web
@@ -39,7 +39,7 @@ Em breve, também serão abordados:
 
 ### 🛠️ Tecnologias Utilizadas
 - **Linguagens**: HTML5, CSS3, JavaScript
-- **Ferramentas Futuras**: Frameworks e bibliotecas JavaScript
+- **Ferramentas**: Frameworks e bibliotecas JavaScript
 
 ---
 
@@ -53,4 +53,4 @@ Todos os códigos estão devidamente comentados para facilitar o estudo e entend
 ---
 
 ### 🏁 Status
-🔄 O repositório está **em andamento**, pois corresponde a uma disciplina atual deste semestre.
+🎓 Disciplina concluída com êxito. Este repositório serve como registro da minha evolução e aprendizado na disciplina de Programação Web.
